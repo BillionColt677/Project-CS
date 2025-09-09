@@ -22,10 +22,46 @@ Partial Class Form1
     'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
-        components = New System.ComponentModel.Container()
+        Me.lstOutput = New System.Windows.Forms.ListBox()
+        Me.Login = New System.Windows.Forms.Button()
+        Me.SuspendLayout()
+        '
+        'lstOutput
+        '
+        Me.lstOutput.FormattingEnabled = True
+        Me.lstOutput.ItemHeight = 16
+        Me.lstOutput.Location = New System.Drawing.Point(12, 12)
+        Me.lstOutput.Name = "lstOutput"
+        Me.lstOutput.Size = New System.Drawing.Size(236, 324)
+        Me.lstOutput.TabIndex = 0
+        '
+        'Login
+        '
+        Me.Login.Location = New System.Drawing.Point(254, 12)
+        Me.Login.Name = "Login"
+        Me.Login.Size = New System.Drawing.Size(75, 23)
+        Me.Login.TabIndex = 1
+        Me.Login.Text = "Login"
+        Me.Login.UseVisualStyleBackColor = True
+        '
+        'Form1
+        '
+        Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(800, 450)
+        Me.Controls.Add(Me.Login)
+        Me.Controls.Add(Me.lstOutput)
+        Me.Name = "Form1"
         Me.Text = "Form1"
+        Me.ResumeLayout(False)
+
     End Sub
 
+    Friend WithEvents lstOutput As ListBox
+
+    Private Sub Form1_Load(sender As Object, e As EventArgs) Handles MyBase.Load
+
+    End Sub
+
+    Friend WithEvents Login As Button
 End Class
