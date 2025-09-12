@@ -62,4 +62,42 @@
         FileClose(1) 'saves to file
     End Sub
 
+    Sub readScheduleData()
+
+        FileOpen(1, "schedule.txt", OpenMode.Input)
+
+        While Not EOF(1)
+
+            'creates temp structure
+            Dim tempSchedule As New Schedule
+
+            'reads each comma seperated block
+            Input(1, tempSchedule.name)
+            Input(1, tempSchedule.time)
+            Input(1, tempSchedule.datte)
+            Input(1, tempSchedule.reception)
+            Input(1, tempSchedule.Operattor)
+
+            'adds the temp structure to the list
+            arrSchedules.Add(tempSchedule)
+        End While
+        FileClose(1) ' closes the file
+    End Sub
+
+    Sub writeScheduleData()
+        FileOpen(1, "Schedule.txt", OpenMode.Output)
+
+        'loops through all records in the student list
+        For Each tempSchedule In arrSchedules
+            'writes each record to a line in the file
+            WriteLine(1, tempSchedule.name)
+            WriteLine(1, tempSchedule.time)
+            WriteLine(1, tempSchedule.datte)
+            WriteLine(1, tempSchedule.reception)
+            WriteLine(1, tempSchedule.Operattor)
+        Next
+
+        FileClose(1) 'saves to file
+    End Sub
+
 End Module

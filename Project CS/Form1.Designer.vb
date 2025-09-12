@@ -28,8 +28,8 @@ Partial Class Form1
         Me.FilmOutput = New System.Windows.Forms.ListBox()
         Me.Button1 = New System.Windows.Forms.Button()
         Me.ListBox1 = New System.Windows.Forms.ListBox()
-        Me.Button2 = New System.Windows.Forms.Button()
-        Me.ListBox2 = New System.Windows.Forms.ListBox()
+        Me.Schedule = New System.Windows.Forms.Button()
+        Me.ScheduleOutput = New System.Windows.Forms.ListBox()
         Me.SuspendLayout()
         '
         'LoginOutput
@@ -86,23 +86,23 @@ Partial Class Form1
         Me.ListBox1.Size = New System.Drawing.Size(236, 52)
         Me.ListBox1.TabIndex = 6
         '
-        'Button2
+        'Schedule
         '
-        Me.Button2.Location = New System.Drawing.Point(254, 128)
-        Me.Button2.Name = "Button2"
-        Me.Button2.Size = New System.Drawing.Size(75, 23)
-        Me.Button2.TabIndex = 5
-        Me.Button2.Text = "Button2"
-        Me.Button2.UseVisualStyleBackColor = True
+        Me.Schedule.Location = New System.Drawing.Point(254, 128)
+        Me.Schedule.Name = "Schedule"
+        Me.Schedule.Size = New System.Drawing.Size(75, 23)
+        Me.Schedule.TabIndex = 5
+        Me.Schedule.Text = "Schedule"
+        Me.Schedule.UseVisualStyleBackColor = True
         '
-        'ListBox2
+        'ScheduleOutput
         '
-        Me.ListBox2.FormattingEnabled = True
-        Me.ListBox2.ItemHeight = 16
-        Me.ListBox2.Location = New System.Drawing.Point(12, 128)
-        Me.ListBox2.Name = "ListBox2"
-        Me.ListBox2.Size = New System.Drawing.Size(236, 52)
-        Me.ListBox2.TabIndex = 4
+        Me.ScheduleOutput.FormattingEnabled = True
+        Me.ScheduleOutput.ItemHeight = 16
+        Me.ScheduleOutput.Location = New System.Drawing.Point(12, 128)
+        Me.ScheduleOutput.Name = "ScheduleOutput"
+        Me.ScheduleOutput.Size = New System.Drawing.Size(236, 52)
+        Me.ScheduleOutput.TabIndex = 4
         '
         'Form1
         '
@@ -111,8 +111,8 @@ Partial Class Form1
         Me.ClientSize = New System.Drawing.Size(800, 450)
         Me.Controls.Add(Me.Button1)
         Me.Controls.Add(Me.ListBox1)
-        Me.Controls.Add(Me.Button2)
-        Me.Controls.Add(Me.ListBox2)
+        Me.Controls.Add(Me.Schedule)
+        Me.Controls.Add(Me.ScheduleOutput)
         Me.Controls.Add(Me.Film)
         Me.Controls.Add(Me.FilmOutput)
         Me.Controls.Add(Me.Login)
@@ -134,6 +134,6 @@ Partial Class Form1
     Friend WithEvents FilmOutput As ListBox
     Friend WithEvents Button1 As Button
     Friend WithEvents ListBox1 As ListBox
-    Friend WithEvents Button2 As Button
-    Friend WithEvents ListBox2 As ListBox
+    Friend WithEvents Schedule As Button
+    Friend WithEvents ScheduleOutput As ListBox
 End Class
