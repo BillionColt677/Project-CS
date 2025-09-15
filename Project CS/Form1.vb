@@ -3,6 +3,7 @@
         readLoginData()
         readFilmData()
         readScheduleData()
+        readGuestData()
     End Sub
 
     Private Sub Login_Click(sender As Object, e As EventArgs) Handles Login.Click
@@ -25,7 +26,19 @@
     Private Sub Schedule_Click(sender As Object, e As EventArgs) Handles Schedule.Click
         For i = 0 To arrSchedules.Count - 1
 
-            ScheduleOutput.Items.Add(arrSchedules(i).name & " " & arrSchedules(i).time & " " & arrSchedules(i).datte & " " & arrSchedules(i).reception & " " & arrSchedules(i).Operattor)
+            ScheduleOutput.Items.Add(arrSchedules(i).film & " " & arrSchedules(i).time & " " & arrSchedules(i).datte & " " & arrSchedules(i).reception & " " & arrSchedules(i).Operattor)
+
+        Next
+    End Sub
+
+    Private Sub ListBox1_SelectedIndexChanged(sender As Object, e As EventArgs) Handles GuestOutput.SelectedIndexChanged
+
+    End Sub
+
+    Private Sub Button1_Click(sender As Object, e As EventArgs) Handles Guest.Click
+        For i = 0 To arrGuests.Count - 1
+
+            GuestOutput.Items.Add(arrGuests(i).name & " " & arrGuests(i).time & " " & arrGuests(i).film)
 
         Next
     End Sub

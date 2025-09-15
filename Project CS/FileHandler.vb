@@ -72,7 +72,7 @@
             Dim tempSchedule As New Schedule
 
             'reads each comma seperated block
-            Input(1, tempSchedule.name)
+            Input(1, tempSchedule.film)
             Input(1, tempSchedule.time)
             Input(1, tempSchedule.datte)
             Input(1, tempSchedule.reception)
@@ -90,7 +90,7 @@
         'loops through all records in the student list
         For Each tempSchedule In arrSchedules
             'writes each record to a line in the file
-            WriteLine(1, tempSchedule.name)
+            WriteLine(1, tempSchedule.film)
             WriteLine(1, tempSchedule.time)
             WriteLine(1, tempSchedule.datte)
             WriteLine(1, tempSchedule.reception)
@@ -100,4 +100,37 @@
         FileClose(1) 'saves to file
     End Sub
 
+    Sub readGuestData()
+
+        FileOpen(1, "GuestList.txt", OpenMode.Input)
+
+        While Not EOF(1)
+
+            'creates temp structure
+            Dim tempGuest As New Guest
+
+            'reads each comma seperated block
+            Input(1, tempGuest.name)
+            Input(1, tempGuest.time)
+            Input(1, tempGuest.film)
+
+            'adds the temp structure to the list
+            arrGuests.Add(tempGuest)
+        End While
+        FileClose(1) ' closes the file
+    End Sub
+
+    Sub writeGuestData()
+        FileOpen(1, "GuestList.txt", OpenMode.Output)
+
+        'loops through all records in the student list
+        For Each tempGuest In arrGuests
+            'writes each record to a line in the file
+            WriteLine(1, tempGuest.name)
+            WriteLine(1, tempGuest.time)
+            WriteLine(1, tempGuest.film)
+        Next
+
+        FileClose(1) 'saves to file
+    End Sub
 End Module

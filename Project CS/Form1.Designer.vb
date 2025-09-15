@@ -26,8 +26,8 @@ Partial Class Form1
         Me.Login = New System.Windows.Forms.Button()
         Me.Film = New System.Windows.Forms.Button()
         Me.FilmOutput = New System.Windows.Forms.ListBox()
-        Me.Button1 = New System.Windows.Forms.Button()
-        Me.ListBox1 = New System.Windows.Forms.ListBox()
+        Me.Guest = New System.Windows.Forms.Button()
+        Me.GuestOutput = New System.Windows.Forms.ListBox()
         Me.Schedule = New System.Windows.Forms.Button()
         Me.ScheduleOutput = New System.Windows.Forms.ListBox()
         Me.SuspendLayout()
@@ -45,7 +45,7 @@ Partial Class Form1
         '
         Me.Login.Location = New System.Drawing.Point(254, 12)
         Me.Login.Name = "Login"
-        Me.Login.Size = New System.Drawing.Size(75, 23)
+        Me.Login.Size = New System.Drawing.Size(89, 23)
         Me.Login.TabIndex = 1
         Me.Login.Text = "Login"
         Me.Login.UseVisualStyleBackColor = True
@@ -54,7 +54,7 @@ Partial Class Form1
         '
         Me.Film.Location = New System.Drawing.Point(254, 70)
         Me.Film.Name = "Film"
-        Me.Film.Size = New System.Drawing.Size(75, 23)
+        Me.Film.Size = New System.Drawing.Size(89, 23)
         Me.Film.TabIndex = 3
         Me.Film.Text = "Film"
         Me.Film.UseVisualStyleBackColor = True
@@ -68,29 +68,29 @@ Partial Class Form1
         Me.FilmOutput.Size = New System.Drawing.Size(236, 52)
         Me.FilmOutput.TabIndex = 2
         '
-        'Button1
+        'Guest
         '
-        Me.Button1.Location = New System.Drawing.Point(254, 186)
-        Me.Button1.Name = "Button1"
-        Me.Button1.Size = New System.Drawing.Size(75, 23)
-        Me.Button1.TabIndex = 7
-        Me.Button1.Text = "Button1"
-        Me.Button1.UseVisualStyleBackColor = True
+        Me.Guest.Location = New System.Drawing.Point(254, 186)
+        Me.Guest.Name = "Guest"
+        Me.Guest.Size = New System.Drawing.Size(89, 23)
+        Me.Guest.TabIndex = 7
+        Me.Guest.Text = "Guest"
+        Me.Guest.UseVisualStyleBackColor = True
         '
-        'ListBox1
+        'GuestOutput
         '
-        Me.ListBox1.FormattingEnabled = True
-        Me.ListBox1.ItemHeight = 16
-        Me.ListBox1.Location = New System.Drawing.Point(12, 186)
-        Me.ListBox1.Name = "ListBox1"
-        Me.ListBox1.Size = New System.Drawing.Size(236, 52)
-        Me.ListBox1.TabIndex = 6
+        Me.GuestOutput.FormattingEnabled = True
+        Me.GuestOutput.ItemHeight = 16
+        Me.GuestOutput.Location = New System.Drawing.Point(12, 186)
+        Me.GuestOutput.Name = "GuestOutput"
+        Me.GuestOutput.Size = New System.Drawing.Size(236, 52)
+        Me.GuestOutput.TabIndex = 6
         '
         'Schedule
         '
         Me.Schedule.Location = New System.Drawing.Point(254, 128)
         Me.Schedule.Name = "Schedule"
-        Me.Schedule.Size = New System.Drawing.Size(75, 23)
+        Me.Schedule.Size = New System.Drawing.Size(89, 23)
         Me.Schedule.TabIndex = 5
         Me.Schedule.Text = "Schedule"
         Me.Schedule.UseVisualStyleBackColor = True
@@ -109,8 +109,8 @@ Partial Class Form1
         Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(800, 450)
-        Me.Controls.Add(Me.Button1)
-        Me.Controls.Add(Me.ListBox1)
+        Me.Controls.Add(Me.Guest)
+        Me.Controls.Add(Me.GuestOutput)
         Me.Controls.Add(Me.Schedule)
         Me.Controls.Add(Me.ScheduleOutput)
         Me.Controls.Add(Me.Film)
@@ -132,8 +132,8 @@ Partial Class Form1
     Friend WithEvents Login As Button
     Friend WithEvents Film As Button
     Friend WithEvents FilmOutput As ListBox
-    Friend WithEvents Button1 As Button
-    Friend WithEvents ListBox1 As ListBox
+    Friend WithEvents Guest As Button
+    Friend WithEvents GuestOutput As ListBox
     Friend WithEvents Schedule As Button
     Friend WithEvents ScheduleOutput As ListBox
 End Class
