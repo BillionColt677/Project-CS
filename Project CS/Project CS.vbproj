@@ -73,6 +73,24 @@
     <Import Include="System.Threading.Tasks" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Change Film Page.Designer.vb">
+      <DependentUpon>Change Film Page.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Change Film Page.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Change Guest Page.Designer.vb">
+      <DependentUpon>Change Guest Page.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Change Guest Page.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Change Schedule Page.Designer.vb">
+      <DependentUpon>Change Schedule Page.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Change Schedule Page.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="DataStructure.vb" />
     <Compile Include="FileHandler.vb" />
     <Compile Include="Form1.vb">
@@ -80,6 +98,12 @@
     </Compile>
     <Compile Include="Form1.Designer.vb">
       <DependentUpon>Form1.vb</DependentUpon>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LoginCreation.Designer.vb">
+      <DependentUpon>LoginCreation.vb</DependentUpon>
+    </Compile>
+    <Compile Include="LoginCreation.vb">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="My Project\AssemblyInfo.vb" />
@@ -101,6 +125,9 @@
   <ItemGroup>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LoginCreation.resx">
+      <DependentUpon>LoginCreation.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="My Project\Resources.resx">
       <Generator>VbMyResourcesResXFileCodeGenerator</Generator>

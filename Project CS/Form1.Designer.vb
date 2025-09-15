@@ -30,6 +30,10 @@ Partial Class Form1
         Me.GuestOutput = New System.Windows.Forms.ListBox()
         Me.Schedule = New System.Windows.Forms.Button()
         Me.ScheduleOutput = New System.Windows.Forms.ListBox()
+        Me.CreateLogin = New System.Windows.Forms.Button()
+        Me.ChangeFilm = New System.Windows.Forms.Button()
+        Me.ChangeSchedule = New System.Windows.Forms.Button()
+        Me.ChangeGuest = New System.Windows.Forms.Button()
         Me.SuspendLayout()
         '
         'LoginOutput
@@ -104,11 +108,51 @@ Partial Class Form1
         Me.ScheduleOutput.Size = New System.Drawing.Size(236, 52)
         Me.ScheduleOutput.TabIndex = 4
         '
+        'CreateLogin
+        '
+        Me.CreateLogin.Location = New System.Drawing.Point(349, 12)
+        Me.CreateLogin.Name = "CreateLogin"
+        Me.CreateLogin.Size = New System.Drawing.Size(168, 23)
+        Me.CreateLogin.TabIndex = 8
+        Me.CreateLogin.Text = "CreateLogin"
+        Me.CreateLogin.UseVisualStyleBackColor = True
+        '
+        'ChangeFilm
+        '
+        Me.ChangeFilm.Location = New System.Drawing.Point(349, 70)
+        Me.ChangeFilm.Name = "ChangeFilm"
+        Me.ChangeFilm.Size = New System.Drawing.Size(168, 23)
+        Me.ChangeFilm.TabIndex = 9
+        Me.ChangeFilm.Text = "ChangeFilm"
+        Me.ChangeFilm.UseVisualStyleBackColor = True
+        '
+        'ChangeSchedule
+        '
+        Me.ChangeSchedule.Location = New System.Drawing.Point(349, 128)
+        Me.ChangeSchedule.Name = "ChangeSchedule"
+        Me.ChangeSchedule.Size = New System.Drawing.Size(168, 23)
+        Me.ChangeSchedule.TabIndex = 10
+        Me.ChangeSchedule.Text = "ChangeSchedule"
+        Me.ChangeSchedule.UseVisualStyleBackColor = True
+        '
+        'ChangeGuest
+        '
+        Me.ChangeGuest.Location = New System.Drawing.Point(349, 186)
+        Me.ChangeGuest.Name = "ChangeGuest"
+        Me.ChangeGuest.Size = New System.Drawing.Size(168, 23)
+        Me.ChangeGuest.TabIndex = 11
+        Me.ChangeGuest.Text = "ChangeGuest"
+        Me.ChangeGuest.UseVisualStyleBackColor = True
+        '
         'Form1
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(800, 450)
+        Me.Controls.Add(Me.ChangeGuest)
+        Me.Controls.Add(Me.ChangeSchedule)
+        Me.Controls.Add(Me.ChangeFilm)
+        Me.Controls.Add(Me.CreateLogin)
         Me.Controls.Add(Me.Guest)
         Me.Controls.Add(Me.GuestOutput)
         Me.Controls.Add(Me.Schedule)
@@ -136,4 +180,8 @@ Partial Class Form1
     Friend WithEvents GuestOutput As ListBox
     Friend WithEvents Schedule As Button
     Friend WithEvents ScheduleOutput As ListBox
+    Friend WithEvents CreateLogin As Button
+    Friend WithEvents ChangeFilm As Button
+    Friend WithEvents ChangeSchedule As Button
+    Friend WithEvents ChangeGuest As Button
 End Class
