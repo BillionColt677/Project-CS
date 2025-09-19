@@ -23,7 +23,7 @@
     Sub writeLoginData()
         FileOpen(1, "Login.txt", OpenMode.Output)
 
-        'loops through all records in the student list
+        'loops through all records in the user list
         For Each tempLogin In arrLogins
             'writes each record to a line in the file
             WriteLine(1, tempLogin.username, tempLogin.password, tempLogin.role)
