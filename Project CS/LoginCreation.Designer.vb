@@ -25,7 +25,7 @@ Partial Class LoginCreation
         Me.Label1 = New System.Windows.Forms.Label()
         Me.Username = New System.Windows.Forms.TextBox()
         Me.Password = New System.Windows.Forms.TextBox()
-        Me.Button1 = New System.Windows.Forms.Button()
+        Me.CreateLogin = New System.Windows.Forms.Button()
         Me.Button2 = New System.Windows.Forms.Button()
         Me.roleBox = New System.Windows.Forms.ComboBox()
         Me.SuspendLayout()
@@ -59,15 +59,15 @@ Partial Class LoginCreation
         Me.Password.Size = New System.Drawing.Size(224, 26)
         Me.Password.TabIndex = 2
         '
-        'Button1
+        'CreateLogin
         '
-        Me.Button1.Location = New System.Drawing.Point(215, 199)
-        Me.Button1.Margin = New System.Windows.Forms.Padding(2)
-        Me.Button1.Name = "Button1"
-        Me.Button1.Size = New System.Drawing.Size(64, 27)
-        Me.Button1.TabIndex = 3
-        Me.Button1.Text = "Create"
-        Me.Button1.UseVisualStyleBackColor = True
+        Me.CreateLogin.Location = New System.Drawing.Point(215, 199)
+        Me.CreateLogin.Margin = New System.Windows.Forms.Padding(2)
+        Me.CreateLogin.Name = "CreateLogin"
+        Me.CreateLogin.Size = New System.Drawing.Size(64, 27)
+        Me.CreateLogin.TabIndex = 3
+        Me.CreateLogin.Text = "Create"
+        Me.CreateLogin.UseVisualStyleBackColor = True
         '
         'Button2
         '
@@ -99,7 +99,7 @@ Partial Class LoginCreation
         Me.ClientSize = New System.Drawing.Size(600, 366)
         Me.Controls.Add(Me.roleBox)
         Me.Controls.Add(Me.Button2)
-        Me.Controls.Add(Me.Button1)
+        Me.Controls.Add(Me.CreateLogin)
         Me.Controls.Add(Me.Password)
         Me.Controls.Add(Me.Username)
         Me.Controls.Add(Me.Label1)
@@ -114,7 +114,7 @@ Partial Class LoginCreation
     Friend WithEvents Label1 As Label
     Friend WithEvents Username As TextBox
     Friend WithEvents Password As TextBox
-    Friend WithEvents Button1 As Button
+    Friend WithEvents CreateLogin As Button
     Friend WithEvents Button2 As Button
     Friend WithEvents roleBox As ComboBox
 End Class

@@ -1,9 +1,19 @@
-﻿Public Class LoginCreation
+﻿Imports System.Configuration
+
+Public Class LoginCreation
     Private Sub LoginCreation_Load(sender As Object, e As EventArgs) Handles MyBase.Load
         writeLoginData()
     End Sub
 
-    Private Sub Button1_Click(sender As Object, e As EventArgs) Handles Button1.Click
+    Private Sub Button1_Click(sender As Object, e As EventArgs) Handles CreateLogin.Click
+        Dim tempLogin As New Login
+
+        tempLogin.username = Username.Text
+        tempLogin.password = Password.Text
+        tempLogin.role = roleBox.SelectedItem.ToString()
+
+        arrLogins.Add(tempLogin)
+        writeLoginData()
 
     End Sub
 
