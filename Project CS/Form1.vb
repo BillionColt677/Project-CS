@@ -47,4 +47,8 @@
         Me.Hide()
         LoginCreation.Show()
     End Sub
+
+    Private Sub LoginOutput_SelectedIndexChanged(sender As Object, e As EventArgs) Handles LoginOutput.SelectedIndexChanged
+
+    End Sub
 End Class

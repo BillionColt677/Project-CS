@@ -39,10 +39,10 @@ Partial Class Form1
         'LoginOutput
         '
         Me.LoginOutput.FormattingEnabled = True
-        Me.LoginOutput.Location = New System.Drawing.Point(9, 10)
+        Me.LoginOutput.Location = New System.Drawing.Point(225, 195)
         Me.LoginOutput.Margin = New System.Windows.Forms.Padding(2)
         Me.LoginOutput.Name = "LoginOutput"
-        Me.LoginOutput.Size = New System.Drawing.Size(178, 43)
+        Me.LoginOutput.Size = New System.Drawing.Size(331, 160)
         Me.LoginOutput.TabIndex = 0
         '
         'Login

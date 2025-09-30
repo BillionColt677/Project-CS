@@ -3,6 +3,7 @@
 Public Class LoginCreation
     Private Sub LoginCreation_Load(sender As Object, e As EventArgs) Handles MyBase.Load
         writeLoginData()
+        readLoginData()
     End Sub
 
     Private Sub Button1_Click(sender As Object, e As EventArgs) Handles CreateLogin.Click
@@ -27,5 +28,13 @@ Public Class LoginCreation
 
     Private Sub TextBox2_TextChanged(sender As Object, e As EventArgs) Handles Password.TextChanged
 
+    End Sub
+
+    Private Sub Refresh_Click(sender As Object, e As EventArgs) Handles Refresh.Click
+        LoginOutput1.Items.Clear()
+        For i = 0 To arrLogins.Count - 1
+
+            LoginOutput1.Items.Add(arrLogins(i).username & " " & arrLogins(i).password & " " & arrLogins(i).role)
+        Next
     End Sub
 End Class

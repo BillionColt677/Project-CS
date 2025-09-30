@@ -28,13 +28,15 @@ Partial Class LoginCreation
         Me.CreateLogin = New System.Windows.Forms.Button()
         Me.Button2 = New System.Windows.Forms.Button()
         Me.roleBox = New System.Windows.Forms.ComboBox()
+        Me.LoginOutput1 = New System.Windows.Forms.ListBox()
+        Me.Refresh = New System.Windows.Forms.Button()
         Me.SuspendLayout()
         '
         'Label1
         '
         Me.Label1.AutoSize = True
         Me.Label1.Font = New System.Drawing.Font("Microsoft Sans Serif", 15.0!)
-        Me.Label1.Location = New System.Drawing.Point(182, 29)
+        Me.Label1.Location = New System.Drawing.Point(11, 76)
         Me.Label1.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.Label1.Name = "Label1"
         Me.Label1.Size = New System.Drawing.Size(235, 25)
@@ -44,7 +46,7 @@ Partial Class LoginCreation
         'Username
         '
         Me.Username.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!)
-        Me.Username.Location = New System.Drawing.Point(186, 93)
+        Me.Username.Location = New System.Drawing.Point(15, 140)
         Me.Username.Margin = New System.Windows.Forms.Padding(2)
         Me.Username.Name = "Username"
         Me.Username.Size = New System.Drawing.Size(224, 26)
@@ -53,7 +55,7 @@ Partial Class LoginCreation
         'Password
         '
         Me.Password.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!)
-        Me.Password.Location = New System.Drawing.Point(186, 122)
+        Me.Password.Location = New System.Drawing.Point(15, 169)
         Me.Password.Margin = New System.Windows.Forms.Padding(2)
         Me.Password.Name = "Password"
         Me.Password.Size = New System.Drawing.Size(224, 26)
@@ -61,7 +63,7 @@ Partial Class LoginCreation
         '
         'CreateLogin
         '
-        Me.CreateLogin.Location = New System.Drawing.Point(215, 199)
+        Me.CreateLogin.Location = New System.Drawing.Point(44, 246)
         Me.CreateLogin.Margin = New System.Windows.Forms.Padding(2)
         Me.CreateLogin.Name = "CreateLogin"
         Me.CreateLogin.Size = New System.Drawing.Size(64, 27)
@@ -71,7 +73,7 @@ Partial Class LoginCreation
         '
         'Button2
         '
-        Me.Button2.Location = New System.Drawing.Point(296, 199)
+        Me.Button2.Location = New System.Drawing.Point(125, 246)
         Me.Button2.Margin = New System.Windows.Forms.Padding(2)
         Me.Button2.Name = "Button2"
         Me.Button2.Size = New System.Drawing.Size(74, 27)
@@ -85,18 +87,37 @@ Partial Class LoginCreation
         Me.roleBox.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!)
         Me.roleBox.FormattingEnabled = True
         Me.roleBox.Items.AddRange(New Object() {"Admin", "Supervisor", "Recption", "Operator"})
-        Me.roleBox.Location = New System.Drawing.Point(187, 153)
+        Me.roleBox.Location = New System.Drawing.Point(16, 200)
         Me.roleBox.Name = "roleBox"
         Me.roleBox.Size = New System.Drawing.Size(223, 28)
         Me.roleBox.TabIndex = 5
         Me.roleBox.Text = "Admin"
         Me.roleBox.ValueMember = "Admin"
         '
+        'LoginOutput1
+        '
+        Me.LoginOutput1.FormattingEnabled = True
+        Me.LoginOutput1.Location = New System.Drawing.Point(295, 12)
+        Me.LoginOutput1.Name = "LoginOutput1"
+        Me.LoginOutput1.Size = New System.Drawing.Size(293, 303)
+        Me.LoginOutput1.TabIndex = 6
+        '
+        'Refresh
+        '
+        Me.Refresh.Location = New System.Drawing.Point(385, 333)
+        Me.Refresh.Name = "Refresh"
+        Me.Refresh.Size = New System.Drawing.Size(108, 21)
+        Me.Refresh.TabIndex = 7
+        Me.Refresh.Text = "Refresh"
+        Me.Refresh.UseVisualStyleBackColor = True
+        '
         'LoginCreation
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(600, 366)
+        Me.Controls.Add(Me.Refresh)
+        Me.Controls.Add(Me.LoginOutput1)
         Me.Controls.Add(Me.roleBox)
         Me.Controls.Add(Me.Button2)
         Me.Controls.Add(Me.CreateLogin)
@@ -117,4 +138,6 @@ Partial Class LoginCreation
     Friend WithEvents CreateLogin As Button
     Friend WithEvents Button2 As Button
     Friend WithEvents roleBox As ComboBox
+    Friend WithEvents LoginOutput1 As ListBox
+    Friend WithEvents Refresh As Button
 End Class
