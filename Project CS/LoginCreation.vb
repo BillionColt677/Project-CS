@@ -33,8 +33,13 @@ Public Class LoginCreation
     Private Sub Refresh_Click(sender As Object, e As EventArgs) Handles Refresh.Click
         LoginOutput1.Items.Clear()
         For i = 0 To arrLogins.Count - 1
-
-            LoginOutput1.Items.Add(arrLogins(i).username & " " & arrLogins(i).password & " " & arrLogins(i).role)
+            LoginOutput1.Items.Add(arrLogins(i).username & " " &
+                                  arrLogins(i).password & " " &
+                                  arrLogins(i).role)
         Next
+    End Sub
+
+    Private Sub LoginOutput1_SelectedIndexChanged(sender As Object, e As EventArgs) Handles LoginOutput1.SelectedIndexChanged
+
     End Sub
 End Class
