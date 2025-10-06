@@ -51,4 +51,9 @@
     Private Sub LoginOutput_SelectedIndexChanged(sender As Object, e As EventArgs) Handles LoginOutput.SelectedIndexChanged
 
     End Sub
+
+    Private Sub ChangeFilm_Click(sender As Object, e As EventArgs) Handles ChangeFilm.Click
+        Me.Hide()
+        Change_Film_Page.Show()
+    End Sub
 End Class

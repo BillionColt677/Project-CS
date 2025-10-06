@@ -123,6 +123,12 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
+    <EmbeddedResource Include="Change Film Page.resx">
+      <DependentUpon>Change Film Page.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Change Schedule Page.resx">
+      <DependentUpon>Change Schedule Page.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.vb</DependentUpon>
     </EmbeddedResource>
