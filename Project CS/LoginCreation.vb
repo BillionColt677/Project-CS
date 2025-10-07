@@ -33,12 +33,21 @@ Public Class LoginCreation
 
     Private Sub Refresh_Click(sender As Object, e As EventArgs) Handles Refresh.Click
         LoginOutput1.Items.Clear()
-        For i = 0 To arrLogins.Count - 1
-            LoginOutput1.Items.Add(arrLogins(i).username & " " &
-                                  arrLogins(i).password & " " &
-                                  arrLogins(i).role)
+
+        ' Create a list of unique user entries before displaying
+        Dim uniqueLogins = arrLogins.
+        GroupBy(Function(l) l.username & " " & l.password & " " & l.role).
+        Select(Function(g) g.First()).
+        ToList()
+
+        ' Loop through only the unique ones
+        For i = 0 To uniqueLogins.Count - 1
+            LoginOutput1.Items.Add(uniqueLogins(i).username & " " &
+                               uniqueLogins(i).password & " " &
+                               uniqueLogins(i).role)
         Next
     End Sub
+
 
     Private Sub LoginOutput1_SelectedIndexChanged(sender As Object, e As EventArgs) Handles LoginOutput1.SelectedIndexChanged
 

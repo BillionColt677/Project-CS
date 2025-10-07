@@ -25,6 +25,11 @@
     End Sub
 
     Private Sub Refresh_Click(sender As Object, e As EventArgs) Handles Refresh.Click
+        FilmOutput.Items.Clear()
+        arrFilms = arrFilms _
+        .GroupBy(Function(f) f.film) _
+        .Select(Function(g) g.First()) _
+        .ToList()
         For i = 0 To arrFilms.Count - 1
 
             FilmOutput.Items.Add(arrFilms(i).film)
