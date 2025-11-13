@@ -121,6 +121,7 @@
       <DependentUpon>Settings.settings</DependentUpon>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
+    <Compile Include="Validation.vb" />
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="Change Film Page.resx">
