@@ -100,6 +100,12 @@
       <DependentUpon>Form1.vb</DependentUpon>
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="Login.Designer.vb">
+      <DependentUpon>Login.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Login.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="LoginCreation.Designer.vb">
       <DependentUpon>LoginCreation.vb</DependentUpon>
     </Compile>
@@ -121,17 +127,29 @@
       <DependentUpon>Settings.settings</DependentUpon>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
+    <Compile Include="Shedule Guest List.Designer.vb">
+      <DependentUpon>Shedule Guest List.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Shedule Guest List.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="Validation.vb" />
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="Change Film Page.resx">
       <DependentUpon>Change Film Page.vb</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Change Guest Page.resx">
+      <DependentUpon>Change Guest Page.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Change Schedule Page.resx">
       <DependentUpon>Change Schedule Page.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Login.resx">
+      <DependentUpon>Login.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="LoginCreation.resx">
       <DependentUpon>LoginCreation.vb</DependentUpon>
@@ -141,6 +159,9 @@
       <LastGenOutput>Resources.Designer.vb</LastGenOutput>
       <CustomToolNamespace>My.Resources</CustomToolNamespace>
       <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Shedule Guest List.resx">
+      <DependentUpon>Shedule Guest List.vb</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
