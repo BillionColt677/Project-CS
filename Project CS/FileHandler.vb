@@ -1,4 +1,5 @@
-﻿Module FileHandler
+﻿Imports DataStructure
+Module FileHandler
     Sub readLoginData()
 
         FileOpen(1, "Login.txt", OpenMode.Input)
