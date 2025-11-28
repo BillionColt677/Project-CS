@@ -45,12 +45,12 @@ Partial Class Change_Guest_Page
         Me.ComboBox7.DisplayMember = "Admin, User"
         Me.ComboBox7.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!)
         Me.ComboBox7.FormattingEnabled = True
-        Me.ComboBox7.Items.AddRange(New Object() {"Admin", "Supervisor", "Recption", "Operator"})
+        Me.ComboBox7.Items.AddRange(New Object() {"Movie"})
         Me.ComboBox7.Location = New System.Drawing.Point(30, 123)
         Me.ComboBox7.Name = "ComboBox7"
         Me.ComboBox7.Size = New System.Drawing.Size(116, 28)
         Me.ComboBox7.TabIndex = 44
-        Me.ComboBox7.Text = "Admin"
+        Me.ComboBox7.Text = "Movie Name"
         Me.ComboBox7.ValueMember = "Admin"
         '
         'ComboBox6
@@ -63,7 +63,7 @@ Partial Class Change_Guest_Page
         Me.ComboBox6.Name = "ComboBox6"
         Me.ComboBox6.Size = New System.Drawing.Size(117, 28)
         Me.ComboBox6.TabIndex = 43
-        Me.ComboBox6.Text = "Admin"
+        Me.ComboBox6.Text = "Reception"
         Me.ComboBox6.ValueMember = "Admin"
         '
         'ComboBox5
@@ -76,7 +76,7 @@ Partial Class Change_Guest_Page
         Me.ComboBox5.Name = "ComboBox5"
         Me.ComboBox5.Size = New System.Drawing.Size(117, 28)
         Me.ComboBox5.TabIndex = 42
-        Me.ComboBox5.Text = "Admin"
+        Me.ComboBox5.Text = "Operator"
         Me.ComboBox5.ValueMember = "Admin"
         '
         'ComboBox4
@@ -89,7 +89,7 @@ Partial Class Change_Guest_Page
         Me.ComboBox4.Name = "ComboBox4"
         Me.ComboBox4.Size = New System.Drawing.Size(56, 28)
         Me.ComboBox4.TabIndex = 41
-        Me.ComboBox4.Text = "Admin"
+        Me.ComboBox4.Text = "Mins"
         Me.ComboBox4.ValueMember = "Admin"
         '
         'ComboBox3
@@ -102,7 +102,7 @@ Partial Class Change_Guest_Page
         Me.ComboBox3.Name = "ComboBox3"
         Me.ComboBox3.Size = New System.Drawing.Size(56, 28)
         Me.ComboBox3.TabIndex = 40
-        Me.ComboBox3.Text = "Admin"
+        Me.ComboBox3.Text = "Hour"
         Me.ComboBox3.ValueMember = "Admin"
         '
         'ComboBox2
@@ -111,11 +111,11 @@ Partial Class Change_Guest_Page
         Me.ComboBox2.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!)
         Me.ComboBox2.FormattingEnabled = True
         Me.ComboBox2.Items.AddRange(New Object() {"Admin", "Supervisor", "Recption", "Operator"})
-        Me.ComboBox2.Location = New System.Drawing.Point(152, 190)
+        Me.ComboBox2.Location = New System.Drawing.Point(163, 190)
         Me.ComboBox2.Name = "ComboBox2"
         Me.ComboBox2.Size = New System.Drawing.Size(56, 28)
         Me.ComboBox2.TabIndex = 39
-        Me.ComboBox2.Text = "Admin"
+        Me.ComboBox2.Text = "Year"
         Me.ComboBox2.ValueMember = "Admin"
         '
         'ComboBox1
@@ -126,9 +126,9 @@ Partial Class Change_Guest_Page
         Me.ComboBox1.Items.AddRange(New Object() {"Admin", "Supervisor", "Recption", "Operator"})
         Me.ComboBox1.Location = New System.Drawing.Point(91, 190)
         Me.ComboBox1.Name = "ComboBox1"
-        Me.ComboBox1.Size = New System.Drawing.Size(56, 28)
+        Me.ComboBox1.Size = New System.Drawing.Size(67, 28)
         Me.ComboBox1.TabIndex = 38
-        Me.ComboBox1.Text = "Admin"
+        Me.ComboBox1.Text = "Month"
         Me.ComboBox1.ValueMember = "Admin"
         '
         'Back
@@ -188,7 +188,7 @@ Partial Class Change_Guest_Page
         Me.roleBox.Name = "roleBox"
         Me.roleBox.Size = New System.Drawing.Size(56, 28)
         Me.roleBox.TabIndex = 32
-        Me.roleBox.Text = "Admin"
+        Me.roleBox.Text = "Day"
         Me.roleBox.ValueMember = "Admin"
         '
         'Search
