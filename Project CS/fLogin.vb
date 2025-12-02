@@ -2,9 +2,11 @@
 
 Public Class fLogin
     Private Sub fLogin_Load(sender As Object, e As EventArgs) Handles MyBase.Load
+        readLoginData()
+    End Sub
+
+    Private Sub Loginbtn_Click(sender As Object, e As EventArgs) Handles Loginbtn.Click
+        Dim tempLogin As New Login
 
     End Sub
-    'Private Sub Refresh_Click(sender As Object, e As EventArgs) Handles Refresh.Click
-    '    '  If Templogin Then
-    'End Sub
 End Class

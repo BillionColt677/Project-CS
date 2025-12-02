@@ -8,7 +8,7 @@ Public Class LoginCreation
     End Sub
 
     Private Sub Button1_Click(sender As Object, e As EventArgs) Handles CreateLogin.Click
-        Dim tempLogin As New frmLogin
+        Dim tempLogin As New Login
 
         tempLogin.username = Username.Text
         tempLogin.password = Password.Text
@@ -75,7 +75,7 @@ Public Class LoginCreation
     End Sub
 
     Private Sub Update_Click(sender As Object, e As EventArgs) Handles Update.Click
-        Dim tempLogin As New frmLogin
+        Dim tempLogin As New Login
 
         tempLogin.username = Username.Text
         tempLogin.password = Password.Text
