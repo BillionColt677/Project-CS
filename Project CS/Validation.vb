@@ -14,10 +14,10 @@
     End Function
 
     Private Sub txtValidate_Click(sender As Object, e As EventArgs)
-        If typeCheck(txtInput.Text) = True Then
-            actualTask()
-        Else
-            MessageBox.Show("Invalid Input")
-        End If
+        '  If typeCheck(txtInput.Text) = True Then
+        'actualTask()
+        ' Else
+        'MessageBox.Show("Invalid Input")
+        'End If
     End Sub
 End Module
