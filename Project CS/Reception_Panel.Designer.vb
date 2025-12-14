@@ -24,8 +24,8 @@ Partial Class Reception_Panel
     Private Sub InitializeComponent()
         Me.logoutbtn = New System.Windows.Forms.Button()
         Me.Label1 = New System.Windows.Forms.Label()
-        Me.maintinancebtn = New System.Windows.Forms.Button()
-        Me.usermanagementbtn = New System.Windows.Forms.Button()
+        Me.Guestlistbtn = New System.Windows.Forms.Button()
+        Me.guestcheckinbtn = New System.Windows.Forms.Button()
         Me.SuspendLayout()
         '
         'logoutbtn
@@ -48,25 +48,25 @@ Partial Class Reception_Panel
         Me.Label1.TabIndex = 6
         Me.Label1.Text = "Reception Panel"
         '
-        'maintinancebtn
+        'Guestlistbtn
         '
-        Me.maintinancebtn.Font = New System.Drawing.Font("Microsoft Sans Serif", 15.0!)
-        Me.maintinancebtn.Location = New System.Drawing.Point(274, 167)
-        Me.maintinancebtn.Name = "maintinancebtn"
-        Me.maintinancebtn.Size = New System.Drawing.Size(252, 64)
-        Me.maintinancebtn.TabIndex = 5
-        Me.maintinancebtn.Text = "Guest list"
-        Me.maintinancebtn.UseVisualStyleBackColor = True
+        Me.Guestlistbtn.Font = New System.Drawing.Font("Microsoft Sans Serif", 15.0!)
+        Me.Guestlistbtn.Location = New System.Drawing.Point(274, 167)
+        Me.Guestlistbtn.Name = "Guestlistbtn"
+        Me.Guestlistbtn.Size = New System.Drawing.Size(252, 64)
+        Me.Guestlistbtn.TabIndex = 5
+        Me.Guestlistbtn.Text = "Guest list"
+        Me.Guestlistbtn.UseVisualStyleBackColor = True
         '
-        'usermanagementbtn
+        'guestcheckinbtn
         '
-        Me.usermanagementbtn.Font = New System.Drawing.Font("Microsoft Sans Serif", 15.0!)
-        Me.usermanagementbtn.Location = New System.Drawing.Point(274, 237)
-        Me.usermanagementbtn.Name = "usermanagementbtn"
-        Me.usermanagementbtn.Size = New System.Drawing.Size(252, 64)
-        Me.usermanagementbtn.TabIndex = 4
-        Me.usermanagementbtn.Text = "Guest Check in"
-        Me.usermanagementbtn.UseVisualStyleBackColor = True
+        Me.guestcheckinbtn.Font = New System.Drawing.Font("Microsoft Sans Serif", 15.0!)
+        Me.guestcheckinbtn.Location = New System.Drawing.Point(274, 237)
+        Me.guestcheckinbtn.Name = "guestcheckinbtn"
+        Me.guestcheckinbtn.Size = New System.Drawing.Size(252, 64)
+        Me.guestcheckinbtn.TabIndex = 4
+        Me.guestcheckinbtn.Text = "Guest Check in"
+        Me.guestcheckinbtn.UseVisualStyleBackColor = True
         '
         'Reception_Panel
         '
@@ -75,8 +75,8 @@ Partial Class Reception_Panel
         Me.ClientSize = New System.Drawing.Size(800, 450)
         Me.Controls.Add(Me.logoutbtn)
         Me.Controls.Add(Me.Label1)
-        Me.Controls.Add(Me.maintinancebtn)
-        Me.Controls.Add(Me.usermanagementbtn)
+        Me.Controls.Add(Me.Guestlistbtn)
+        Me.Controls.Add(Me.guestcheckinbtn)
         Me.Name = "Reception_Panel"
         Me.Text = "Reception_Panel"
         Me.ResumeLayout(False)
@@ -86,6 +86,6 @@ Partial Class Reception_Panel
 
     Friend WithEvents logoutbtn As Button
     Friend WithEvents Label1 As Label
-    Friend WithEvents maintinancebtn As Button
-    Friend WithEvents usermanagementbtn As Button
+    Friend WithEvents Guestlistbtn As Button
+    Friend WithEvents guestcheckinbtn As Button
 End Class

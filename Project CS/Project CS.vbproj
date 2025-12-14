@@ -107,12 +107,6 @@
     <Compile Include="Change Guest Page.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Change Schedule Page.Designer.vb">
-      <DependentUpon>Change Schedule Page.vb</DependentUpon>
-    </Compile>
-    <Compile Include="Change Schedule Page.vb">
-      <SubType>Form</SubType>
-    </Compile>
     <Compile Include="DataStructure.vb" />
     <Compile Include="FileHandler.vb" />
     <Compile Include="Form1.vb">
@@ -126,6 +120,12 @@
       <DependentUpon>fLogin.vb</DependentUpon>
     </Compile>
     <Compile Include="fLogin.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Guest_Check_in.Designer.vb">
+      <DependentUpon>Guest_Check_in.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Guest_Check_in.vb">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="LoginCreation.Designer.vb">
@@ -181,14 +181,14 @@
     <EmbeddedResource Include="Change Guest Page.resx">
       <DependentUpon>Change Guest Page.vb</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Change Schedule Page.resx">
-      <DependentUpon>Change Schedule Page.vb</DependentUpon>
-    </EmbeddedResource>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="fLogin.resx">
       <DependentUpon>fLogin.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Guest_Check_in.resx">
+      <DependentUpon>Guest_Check_in.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="LoginCreation.resx">
       <DependentUpon>LoginCreation.vb</DependentUpon>

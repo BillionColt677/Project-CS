@@ -1,6 +1,7 @@
 ﻿Public Class Shedule_Guest_List
-    Private Sub backbtn_Click(sender As Object, e As EventArgs) Handles backbtn.Click
-
+    Private Sub backbtn_Click(sender As Object, e As EventArgs) Handles logoutbtn.Click
+        Me.Hide()
+        fLogin.Show()
     End Sub
 
     Private Sub Refresh_Click(sender As Object, e As EventArgs) Handles Refresh.Click

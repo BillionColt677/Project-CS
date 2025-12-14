@@ -2,7 +2,7 @@
 Imports System.Windows.Forms.VisualStyles.VisualStyleElement.StartPanel
 
 Public Class fLogin
-    Dim entryrole As String
+    Public entryrole As String
     Dim indexCurrent As Integer = -1
     Private Sub fLogin_Load(sender As Object, e As EventArgs) Handles MyBase.Load
         readLoginData()

@@ -25,7 +25,7 @@ Partial Class Shedule_Guest_List
         Me.Refresh = New System.Windows.Forms.Button()
         Me.ScheduleOutput = New System.Windows.Forms.ListBox()
         Me.Label1 = New System.Windows.Forms.Label()
-        Me.backbtn = New System.Windows.Forms.Button()
+        Me.logoutbtn = New System.Windows.Forms.Button()
         Me.SuspendLayout()
         '
         'Refresh
@@ -58,22 +58,22 @@ Partial Class Shedule_Guest_List
         Me.Label1.TabIndex = 29
         Me.Label1.Text = "Schedule Guest List"
         '
-        'backbtn
+        'logoutbtn
         '
-        Me.backbtn.Location = New System.Drawing.Point(24, 465)
-        Me.backbtn.Margin = New System.Windows.Forms.Padding(4)
-        Me.backbtn.Name = "backbtn"
-        Me.backbtn.Size = New System.Drawing.Size(144, 26)
-        Me.backbtn.TabIndex = 35
-        Me.backbtn.Text = "Back"
-        Me.backbtn.UseVisualStyleBackColor = True
+        Me.logoutbtn.Location = New System.Drawing.Point(24, 465)
+        Me.logoutbtn.Margin = New System.Windows.Forms.Padding(4)
+        Me.logoutbtn.Name = "logoutbtn"
+        Me.logoutbtn.Size = New System.Drawing.Size(144, 26)
+        Me.logoutbtn.TabIndex = 35
+        Me.logoutbtn.Text = "Log out"
+        Me.logoutbtn.UseVisualStyleBackColor = True
         '
         'Shedule_Guest_List
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(861, 506)
-        Me.Controls.Add(Me.backbtn)
+        Me.Controls.Add(Me.logoutbtn)
         Me.Controls.Add(Me.Refresh)
         Me.Controls.Add(Me.ScheduleOutput)
         Me.Controls.Add(Me.Label1)
@@ -88,5 +88,5 @@ Partial Class Shedule_Guest_List
     Friend WithEvents Refresh As Button
     Friend WithEvents ScheduleOutput As ListBox
     Friend WithEvents Label1 As Label
-    Friend WithEvents backbtn As Button
+    Friend WithEvents logoutbtn As Button
 End Class

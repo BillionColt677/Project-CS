@@ -47,7 +47,7 @@ Partial Class Change_Guest_Page
         Me.ComboBox7.FormattingEnabled = True
         Me.ComboBox7.Items.AddRange(New Object() {"Movie"})
         Me.ComboBox7.Location = New System.Drawing.Point(40, 151)
-        Me.ComboBox7.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.ComboBox7.Margin = New System.Windows.Forms.Padding(4)
         Me.ComboBox7.Name = "ComboBox7"
         Me.ComboBox7.Size = New System.Drawing.Size(153, 33)
         Me.ComboBox7.TabIndex = 44
@@ -61,7 +61,7 @@ Partial Class Change_Guest_Page
         Me.ComboBox6.FormattingEnabled = True
         Me.ComboBox6.Items.AddRange(New Object() {"Admin", "Supervisor", "Recption", "Operator"})
         Me.ComboBox6.Location = New System.Drawing.Point(203, 151)
-        Me.ComboBox6.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.ComboBox6.Margin = New System.Windows.Forms.Padding(4)
         Me.ComboBox6.Name = "ComboBox6"
         Me.ComboBox6.Size = New System.Drawing.Size(155, 33)
         Me.ComboBox6.TabIndex = 43
@@ -75,7 +75,7 @@ Partial Class Change_Guest_Page
         Me.ComboBox5.FormattingEnabled = True
         Me.ComboBox5.Items.AddRange(New Object() {"Admin", "Supervisor", "Recption", "Operator"})
         Me.ComboBox5.Location = New System.Drawing.Point(203, 193)
-        Me.ComboBox5.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.ComboBox5.Margin = New System.Windows.Forms.Padding(4)
         Me.ComboBox5.Name = "ComboBox5"
         Me.ComboBox5.Size = New System.Drawing.Size(155, 33)
         Me.ComboBox5.TabIndex = 42
@@ -89,7 +89,7 @@ Partial Class Change_Guest_Page
         Me.ComboBox4.FormattingEnabled = True
         Me.ComboBox4.Items.AddRange(New Object() {"Admin", "Supervisor", "Recption", "Operator"})
         Me.ComboBox4.Location = New System.Drawing.Point(121, 193)
-        Me.ComboBox4.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.ComboBox4.Margin = New System.Windows.Forms.Padding(4)
         Me.ComboBox4.Name = "ComboBox4"
         Me.ComboBox4.Size = New System.Drawing.Size(73, 33)
         Me.ComboBox4.TabIndex = 41
@@ -103,7 +103,7 @@ Partial Class Change_Guest_Page
         Me.ComboBox3.FormattingEnabled = True
         Me.ComboBox3.Items.AddRange(New Object() {"Admin", "Supervisor", "Recption", "Operator"})
         Me.ComboBox3.Location = New System.Drawing.Point(40, 193)
-        Me.ComboBox3.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.ComboBox3.Margin = New System.Windows.Forms.Padding(4)
         Me.ComboBox3.Name = "ComboBox3"
         Me.ComboBox3.Size = New System.Drawing.Size(73, 33)
         Me.ComboBox3.TabIndex = 40
@@ -117,7 +117,7 @@ Partial Class Change_Guest_Page
         Me.ComboBox2.FormattingEnabled = True
         Me.ComboBox2.Items.AddRange(New Object() {"Admin", "Supervisor", "Recption", "Operator"})
         Me.ComboBox2.Location = New System.Drawing.Point(217, 234)
-        Me.ComboBox2.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.ComboBox2.Margin = New System.Windows.Forms.Padding(4)
         Me.ComboBox2.Name = "ComboBox2"
         Me.ComboBox2.Size = New System.Drawing.Size(73, 33)
         Me.ComboBox2.TabIndex = 39
@@ -131,7 +131,7 @@ Partial Class Change_Guest_Page
         Me.ComboBox1.FormattingEnabled = True
         Me.ComboBox1.Items.AddRange(New Object() {"Admin", "Supervisor", "Recption", "Operator"})
         Me.ComboBox1.Location = New System.Drawing.Point(121, 234)
-        Me.ComboBox1.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.ComboBox1.Margin = New System.Windows.Forms.Padding(4)
         Me.ComboBox1.Name = "ComboBox1"
         Me.ComboBox1.Size = New System.Drawing.Size(88, 33)
         Me.ComboBox1.TabIndex = 38
@@ -171,7 +171,7 @@ Partial Class Change_Guest_Page
         'Refresh
         '
         Me.Refresh.Location = New System.Drawing.Point(512, 398)
-        Me.Refresh.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.Refresh.Margin = New System.Windows.Forms.Padding(4)
         Me.Refresh.Name = "Refresh"
         Me.Refresh.Size = New System.Drawing.Size(144, 26)
         Me.Refresh.TabIndex = 34
@@ -183,7 +183,7 @@ Partial Class Change_Guest_Page
         Me.LoginOutput1.FormattingEnabled = True
         Me.LoginOutput1.ItemHeight = 16
         Me.LoginOutput1.Location = New System.Drawing.Point(392, 2)
-        Me.LoginOutput1.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.LoginOutput1.Margin = New System.Windows.Forms.Padding(4)
         Me.LoginOutput1.Name = "LoginOutput1"
         Me.LoginOutput1.Size = New System.Drawing.Size(389, 372)
         Me.LoginOutput1.TabIndex = 33
@@ -195,7 +195,7 @@ Partial Class Change_Guest_Page
         Me.roleBox.FormattingEnabled = True
         Me.roleBox.Items.AddRange(New Object() {"Admin", "Supervisor", "Recption", "Operator"})
         Me.roleBox.Location = New System.Drawing.Point(40, 234)
-        Me.roleBox.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.roleBox.Margin = New System.Windows.Forms.Padding(4)
         Me.roleBox.Name = "roleBox"
         Me.roleBox.Size = New System.Drawing.Size(73, 33)
         Me.roleBox.TabIndex = 32
@@ -253,7 +253,7 @@ Partial Class Change_Guest_Page
         Me.Controls.Add(Me.Search)
         Me.Controls.Add(Me.CreateLogin)
         Me.Controls.Add(Me.Label1)
-        Me.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.Margin = New System.Windows.Forms.Padding(4)
         Me.Name = "Change_Guest_Page"
         Me.Text = "Change_Guest_Page"
         Me.ResumeLayout(False)

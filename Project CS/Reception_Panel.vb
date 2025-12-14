@@ -4,13 +4,13 @@
         fLogin.Show()
     End Sub
 
-    Private Sub maintinancebtn_Click(sender As Object, e As EventArgs) Handles maintinancebtn.Click
+    Private Sub maintinancebtn_Click(sender As Object, e As EventArgs) Handles Guestlistbtn.Click
         Me.Hide()
         Change_Guest_Page.Show()
     End Sub
 
-    Private Sub usermanagementbtn_Click(sender As Object, e As EventArgs) Handles usermanagementbtn.Click
+    Private Sub usermanagementbtn_Click(sender As Object, e As EventArgs) Handles guestcheckinbtn.Click
         Me.Hide()
-        Shedule_Guest_List.Show()
+        Guest_Check_in.Show()
     End Sub
 End Class
