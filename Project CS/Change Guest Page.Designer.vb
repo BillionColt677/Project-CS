@@ -46,9 +46,10 @@ Partial Class Change_Guest_Page
         Me.ComboBox7.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!)
         Me.ComboBox7.FormattingEnabled = True
         Me.ComboBox7.Items.AddRange(New Object() {"Movie"})
-        Me.ComboBox7.Location = New System.Drawing.Point(30, 123)
+        Me.ComboBox7.Location = New System.Drawing.Point(40, 151)
+        Me.ComboBox7.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.ComboBox7.Name = "ComboBox7"
-        Me.ComboBox7.Size = New System.Drawing.Size(116, 28)
+        Me.ComboBox7.Size = New System.Drawing.Size(153, 33)
         Me.ComboBox7.TabIndex = 44
         Me.ComboBox7.Text = "Movie Name"
         Me.ComboBox7.ValueMember = "Admin"
@@ -59,9 +60,10 @@ Partial Class Change_Guest_Page
         Me.ComboBox6.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!)
         Me.ComboBox6.FormattingEnabled = True
         Me.ComboBox6.Items.AddRange(New Object() {"Admin", "Supervisor", "Recption", "Operator"})
-        Me.ComboBox6.Location = New System.Drawing.Point(152, 123)
+        Me.ComboBox6.Location = New System.Drawing.Point(203, 151)
+        Me.ComboBox6.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.ComboBox6.Name = "ComboBox6"
-        Me.ComboBox6.Size = New System.Drawing.Size(117, 28)
+        Me.ComboBox6.Size = New System.Drawing.Size(155, 33)
         Me.ComboBox6.TabIndex = 43
         Me.ComboBox6.Text = "Reception"
         Me.ComboBox6.ValueMember = "Admin"
@@ -72,9 +74,10 @@ Partial Class Change_Guest_Page
         Me.ComboBox5.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!)
         Me.ComboBox5.FormattingEnabled = True
         Me.ComboBox5.Items.AddRange(New Object() {"Admin", "Supervisor", "Recption", "Operator"})
-        Me.ComboBox5.Location = New System.Drawing.Point(152, 157)
+        Me.ComboBox5.Location = New System.Drawing.Point(203, 193)
+        Me.ComboBox5.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.ComboBox5.Name = "ComboBox5"
-        Me.ComboBox5.Size = New System.Drawing.Size(117, 28)
+        Me.ComboBox5.Size = New System.Drawing.Size(155, 33)
         Me.ComboBox5.TabIndex = 42
         Me.ComboBox5.Text = "Operator"
         Me.ComboBox5.ValueMember = "Admin"
@@ -85,9 +88,10 @@ Partial Class Change_Guest_Page
         Me.ComboBox4.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!)
         Me.ComboBox4.FormattingEnabled = True
         Me.ComboBox4.Items.AddRange(New Object() {"Admin", "Supervisor", "Recption", "Operator"})
-        Me.ComboBox4.Location = New System.Drawing.Point(91, 157)
+        Me.ComboBox4.Location = New System.Drawing.Point(121, 193)
+        Me.ComboBox4.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.ComboBox4.Name = "ComboBox4"
-        Me.ComboBox4.Size = New System.Drawing.Size(56, 28)
+        Me.ComboBox4.Size = New System.Drawing.Size(73, 33)
         Me.ComboBox4.TabIndex = 41
         Me.ComboBox4.Text = "Mins"
         Me.ComboBox4.ValueMember = "Admin"
@@ -98,9 +102,10 @@ Partial Class Change_Guest_Page
         Me.ComboBox3.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!)
         Me.ComboBox3.FormattingEnabled = True
         Me.ComboBox3.Items.AddRange(New Object() {"Admin", "Supervisor", "Recption", "Operator"})
-        Me.ComboBox3.Location = New System.Drawing.Point(30, 157)
+        Me.ComboBox3.Location = New System.Drawing.Point(40, 193)
+        Me.ComboBox3.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.ComboBox3.Name = "ComboBox3"
-        Me.ComboBox3.Size = New System.Drawing.Size(56, 28)
+        Me.ComboBox3.Size = New System.Drawing.Size(73, 33)
         Me.ComboBox3.TabIndex = 40
         Me.ComboBox3.Text = "Hour"
         Me.ComboBox3.ValueMember = "Admin"
@@ -111,9 +116,10 @@ Partial Class Change_Guest_Page
         Me.ComboBox2.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!)
         Me.ComboBox2.FormattingEnabled = True
         Me.ComboBox2.Items.AddRange(New Object() {"Admin", "Supervisor", "Recption", "Operator"})
-        Me.ComboBox2.Location = New System.Drawing.Point(163, 190)
+        Me.ComboBox2.Location = New System.Drawing.Point(217, 234)
+        Me.ComboBox2.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.ComboBox2.Name = "ComboBox2"
-        Me.ComboBox2.Size = New System.Drawing.Size(56, 28)
+        Me.ComboBox2.Size = New System.Drawing.Size(73, 33)
         Me.ComboBox2.TabIndex = 39
         Me.ComboBox2.Text = "Year"
         Me.ComboBox2.ValueMember = "Admin"
@@ -124,48 +130,50 @@ Partial Class Change_Guest_Page
         Me.ComboBox1.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!)
         Me.ComboBox1.FormattingEnabled = True
         Me.ComboBox1.Items.AddRange(New Object() {"Admin", "Supervisor", "Recption", "Operator"})
-        Me.ComboBox1.Location = New System.Drawing.Point(91, 190)
+        Me.ComboBox1.Location = New System.Drawing.Point(121, 234)
+        Me.ComboBox1.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.ComboBox1.Name = "ComboBox1"
-        Me.ComboBox1.Size = New System.Drawing.Size(67, 28)
+        Me.ComboBox1.Size = New System.Drawing.Size(88, 33)
         Me.ComboBox1.TabIndex = 38
         Me.ComboBox1.Text = "Month"
         Me.ComboBox1.ValueMember = "Admin"
         '
         'Back
         '
-        Me.Back.Location = New System.Drawing.Point(21, 317)
-        Me.Back.Margin = New System.Windows.Forms.Padding(2)
+        Me.Back.Location = New System.Drawing.Point(28, 390)
+        Me.Back.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.Back.Name = "Back"
-        Me.Back.Size = New System.Drawing.Size(64, 27)
+        Me.Back.Size = New System.Drawing.Size(85, 33)
         Me.Back.TabIndex = 37
         Me.Back.Text = "Back"
         Me.Back.UseVisualStyleBackColor = True
         '
         'Delete
         '
-        Me.Delete.Location = New System.Drawing.Point(146, 234)
-        Me.Delete.Margin = New System.Windows.Forms.Padding(2)
+        Me.Delete.Location = New System.Drawing.Point(195, 288)
+        Me.Delete.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.Delete.Name = "Delete"
-        Me.Delete.Size = New System.Drawing.Size(64, 27)
+        Me.Delete.Size = New System.Drawing.Size(85, 33)
         Me.Delete.TabIndex = 36
         Me.Delete.Text = "Delete"
         Me.Delete.UseVisualStyleBackColor = True
         '
         'Update
         '
-        Me.Update.Location = New System.Drawing.Point(215, 234)
-        Me.Update.Margin = New System.Windows.Forms.Padding(2)
+        Me.Update.Location = New System.Drawing.Point(287, 288)
+        Me.Update.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.Update.Name = "Update"
-        Me.Update.Size = New System.Drawing.Size(64, 27)
+        Me.Update.Size = New System.Drawing.Size(85, 33)
         Me.Update.TabIndex = 35
         Me.Update.Text = "Update"
         Me.Update.UseVisualStyleBackColor = True
         '
         'Refresh
         '
-        Me.Refresh.Location = New System.Drawing.Point(384, 323)
+        Me.Refresh.Location = New System.Drawing.Point(512, 398)
+        Me.Refresh.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.Refresh.Name = "Refresh"
-        Me.Refresh.Size = New System.Drawing.Size(108, 21)
+        Me.Refresh.Size = New System.Drawing.Size(144, 26)
         Me.Refresh.TabIndex = 34
         Me.Refresh.Text = "Refresh"
         Me.Refresh.UseVisualStyleBackColor = True
@@ -173,9 +181,11 @@ Partial Class Change_Guest_Page
         'LoginOutput1
         '
         Me.LoginOutput1.FormattingEnabled = True
-        Me.LoginOutput1.Location = New System.Drawing.Point(294, 2)
+        Me.LoginOutput1.ItemHeight = 16
+        Me.LoginOutput1.Location = New System.Drawing.Point(392, 2)
+        Me.LoginOutput1.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.LoginOutput1.Name = "LoginOutput1"
-        Me.LoginOutput1.Size = New System.Drawing.Size(293, 303)
+        Me.LoginOutput1.Size = New System.Drawing.Size(389, 372)
         Me.LoginOutput1.TabIndex = 33
         '
         'roleBox
@@ -184,29 +194,30 @@ Partial Class Change_Guest_Page
         Me.roleBox.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!)
         Me.roleBox.FormattingEnabled = True
         Me.roleBox.Items.AddRange(New Object() {"Admin", "Supervisor", "Recption", "Operator"})
-        Me.roleBox.Location = New System.Drawing.Point(30, 190)
+        Me.roleBox.Location = New System.Drawing.Point(40, 234)
+        Me.roleBox.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.roleBox.Name = "roleBox"
-        Me.roleBox.Size = New System.Drawing.Size(56, 28)
+        Me.roleBox.Size = New System.Drawing.Size(73, 33)
         Me.roleBox.TabIndex = 32
         Me.roleBox.Text = "Day"
         Me.roleBox.ValueMember = "Admin"
         '
         'Search
         '
-        Me.Search.Location = New System.Drawing.Point(78, 234)
-        Me.Search.Margin = New System.Windows.Forms.Padding(2)
+        Me.Search.Location = New System.Drawing.Point(104, 288)
+        Me.Search.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.Search.Name = "Search"
-        Me.Search.Size = New System.Drawing.Size(64, 27)
+        Me.Search.Size = New System.Drawing.Size(85, 33)
         Me.Search.TabIndex = 31
         Me.Search.Text = "Search"
         Me.Search.UseVisualStyleBackColor = True
         '
         'CreateLogin
         '
-        Me.CreateLogin.Location = New System.Drawing.Point(10, 234)
-        Me.CreateLogin.Margin = New System.Windows.Forms.Padding(2)
+        Me.CreateLogin.Location = New System.Drawing.Point(13, 288)
+        Me.CreateLogin.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.CreateLogin.Name = "CreateLogin"
-        Me.CreateLogin.Size = New System.Drawing.Size(64, 27)
+        Me.CreateLogin.Size = New System.Drawing.Size(85, 33)
         Me.CreateLogin.TabIndex = 30
         Me.CreateLogin.Text = "Create"
         Me.CreateLogin.UseVisualStyleBackColor = True
@@ -215,18 +226,17 @@ Partial Class Change_Guest_Page
         '
         Me.Label1.AutoSize = True
         Me.Label1.Font = New System.Drawing.Font("Microsoft Sans Serif", 15.0!)
-        Me.Label1.Location = New System.Drawing.Point(97, 66)
-        Me.Label1.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
+        Me.Label1.Location = New System.Drawing.Point(129, 81)
         Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(95, 25)
+        Me.Label1.Size = New System.Drawing.Size(119, 29)
         Me.Label1.TabIndex = 29
         Me.Label1.Text = "Schedule"
         '
         'Change_Guest_Page
         '
-        Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
+        Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(614, 349)
+        Me.ClientSize = New System.Drawing.Size(819, 430)
         Me.Controls.Add(Me.ComboBox7)
         Me.Controls.Add(Me.ComboBox6)
         Me.Controls.Add(Me.ComboBox5)
@@ -243,6 +253,7 @@ Partial Class Change_Guest_Page
         Me.Controls.Add(Me.Search)
         Me.Controls.Add(Me.CreateLogin)
         Me.Controls.Add(Me.Label1)
+        Me.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.Name = "Change_Guest_Page"
         Me.Text = "Change_Guest_Page"
         Me.ResumeLayout(False)

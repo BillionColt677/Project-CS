@@ -23,46 +23,61 @@ Partial Class Shedule_Guest_List
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
         Me.Refresh = New System.Windows.Forms.Button()
-        Me.LoginOutput1 = New System.Windows.Forms.ListBox()
+        Me.ScheduleOutput = New System.Windows.Forms.ListBox()
         Me.Label1 = New System.Windows.Forms.Label()
+        Me.backbtn = New System.Windows.Forms.Button()
         Me.SuspendLayout()
         '
         'Refresh
         '
-        Me.Refresh.Location = New System.Drawing.Point(244, 378)
+        Me.Refresh.Location = New System.Drawing.Point(325, 465)
+        Me.Refresh.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.Refresh.Name = "Refresh"
-        Me.Refresh.Size = New System.Drawing.Size(108, 21)
+        Me.Refresh.Size = New System.Drawing.Size(144, 26)
         Me.Refresh.TabIndex = 34
         Me.Refresh.Text = "Refresh"
         Me.Refresh.UseVisualStyleBackColor = True
         '
-        'LoginOutput1
+        'ScheduleOutput
         '
-        Me.LoginOutput1.FormattingEnabled = True
-        Me.LoginOutput1.Location = New System.Drawing.Point(128, 37)
-        Me.LoginOutput1.Name = "LoginOutput1"
-        Me.LoginOutput1.Size = New System.Drawing.Size(347, 329)
-        Me.LoginOutput1.TabIndex = 33
+        Me.ScheduleOutput.FormattingEnabled = True
+        Me.ScheduleOutput.ItemHeight = 16
+        Me.ScheduleOutput.Location = New System.Drawing.Point(171, 46)
+        Me.ScheduleOutput.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.ScheduleOutput.Name = "ScheduleOutput"
+        Me.ScheduleOutput.Size = New System.Drawing.Size(461, 404)
+        Me.ScheduleOutput.TabIndex = 33
         '
         'Label1
         '
         Me.Label1.AutoSize = True
         Me.Label1.Font = New System.Drawing.Font("Microsoft Sans Serif", 15.0!)
-        Me.Label1.Location = New System.Drawing.Point(208, 9)
-        Me.Label1.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
+        Me.Label1.Location = New System.Drawing.Point(277, 11)
         Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(187, 25)
+        Me.Label1.Size = New System.Drawing.Size(240, 29)
         Me.Label1.TabIndex = 29
         Me.Label1.Text = "Schedule Guest List"
         '
+        'backbtn
+        '
+        Me.backbtn.Location = New System.Drawing.Point(24, 465)
+        Me.backbtn.Margin = New System.Windows.Forms.Padding(4)
+        Me.backbtn.Name = "backbtn"
+        Me.backbtn.Size = New System.Drawing.Size(144, 26)
+        Me.backbtn.TabIndex = 35
+        Me.backbtn.Text = "Back"
+        Me.backbtn.UseVisualStyleBackColor = True
+        '
         'Shedule_Guest_List
         '
-        Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
+        Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(646, 411)
+        Me.ClientSize = New System.Drawing.Size(861, 506)
+        Me.Controls.Add(Me.backbtn)
         Me.Controls.Add(Me.Refresh)
-        Me.Controls.Add(Me.LoginOutput1)
+        Me.Controls.Add(Me.ScheduleOutput)
         Me.Controls.Add(Me.Label1)
+        Me.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.Name = "Shedule_Guest_List"
         Me.Text = "Shedule_Guest_List"
         Me.ResumeLayout(False)
@@ -71,6 +86,7 @@ Partial Class Shedule_Guest_List
     End Sub
 
     Friend WithEvents Refresh As Button
-    Friend WithEvents LoginOutput1 As ListBox
+    Friend WithEvents ScheduleOutput As ListBox
     Friend WithEvents Label1 As Label
+    Friend WithEvents backbtn As Button
 End Class

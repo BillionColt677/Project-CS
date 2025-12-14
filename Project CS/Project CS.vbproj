@@ -89,6 +89,12 @@
     <Import Include="System.Threading.Tasks" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Admin Panel.Designer.vb">
+      <DependentUpon>Admin Panel.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Admin Panel.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="Change Film Page.Designer.vb">
       <DependentUpon>Change Film Page.vb</DependentUpon>
     </Compile>
@@ -128,6 +134,12 @@
     <Compile Include="LoginCreation.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="Maintinance.Designer.vb">
+      <DependentUpon>Maintinance.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Maintinance.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="My Project\AssemblyInfo.vb" />
     <Compile Include="My Project\Resources.Designer.vb">
       <AutoGen>True</AutoGen>
@@ -139,15 +151,30 @@
       <DependentUpon>Settings.settings</DependentUpon>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
+    <Compile Include="Reception_Panel.Designer.vb">
+      <DependentUpon>Reception_Panel.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Reception_Panel.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="Shedule Guest List.Designer.vb">
       <DependentUpon>Shedule Guest List.vb</DependentUpon>
     </Compile>
     <Compile Include="Shedule Guest List.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="Supervisor Panel.Designer.vb">
+      <DependentUpon>Supervisor Panel.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Supervisor Panel.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="Validation.vb" />
   </ItemGroup>
   <ItemGroup>
+    <EmbeddedResource Include="Admin Panel.resx">
+      <DependentUpon>Admin Panel.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Change Film Page.resx">
       <DependentUpon>Change Film Page.vb</DependentUpon>
     </EmbeddedResource>
@@ -166,14 +193,23 @@
     <EmbeddedResource Include="LoginCreation.resx">
       <DependentUpon>LoginCreation.vb</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Maintinance.resx">
+      <DependentUpon>Maintinance.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="My Project\Resources.resx">
       <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.vb</LastGenOutput>
       <CustomToolNamespace>My.Resources</CustomToolNamespace>
       <SubType>Designer</SubType>
     </EmbeddedResource>
+    <EmbeddedResource Include="Reception_Panel.resx">
+      <DependentUpon>Reception_Panel.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Shedule Guest List.resx">
       <DependentUpon>Shedule Guest List.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Supervisor Panel.resx">
+      <DependentUpon>Supervisor Panel.vb</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>

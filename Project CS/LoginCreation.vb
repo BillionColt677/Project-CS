@@ -55,7 +55,7 @@ Public Class LoginCreation
 
     Private Sub Back_Click(sender As Object, e As EventArgs) Handles Back.Click
         Me.Hide()
-        Form1.Show()
+        Admin_Panel.Show()
     End Sub
 
     Private Sub Search_Click(sender As Object, e As EventArgs) Handles Search.Click
