@@ -21,4 +21,8 @@
                                uniqueSchedule(i).Operattor)
         Next
     End Sub
+
+    Private Sub Shedule_Guest_List_Load(sender As Object, e As EventArgs) Handles MyBase.Load
+        readScheduleData()
+    End Sub
 End Class
